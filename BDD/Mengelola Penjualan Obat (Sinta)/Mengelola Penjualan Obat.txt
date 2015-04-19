@@ -2,14 +2,10 @@ Fitur		: Apoteker melakukan pengelolaan penjualan obat yang dijual pada Klinik
 
 Skenario 1	: Mengelola Penjualan Obat
 
-
-
 Given	Saya masuk pada menu utama apoteker
 
-When	Saya memilih menu penjulan obat
-
+When	Saya memilih menu transaksi penjualan obat
 Then	Saya masuk pada menu transaksi penjualan obat
-
 And	Saya memasukkan id transaksi jual obat, tanggal jual obat, keterangan dan quantity
 
 When	Ketika saya menekan tombol simpan, maka transaksi jual obat dan detail transaksi jual obat tersimpan
